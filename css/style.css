@@ -19,7 +19,6 @@ body {
 }
 
 .header {
-    width: 95%;
     margin: 0 auto;
 
     margin-bottom: 80px;
@@ -75,7 +74,7 @@ body {
     padding: 15px 30px;
     font-weight: bold;
     color: #fff;
-    background-color: blue;
+    background-color: #3040C4;
     border: none;
     border-radius: 6px;
 }
@@ -84,4 +83,216 @@ body {
    margin: 0 auto;
    width: 90%;
    max-width: 1280px;
+}
+
+.promo-title {
+    font-size: 70px;
+    font-weight: bold;
+    
+    width: 60%;
+    margin-bottom: 30px;
+
+    position: relative;
+
+    z-index: 1;
+}
+
+.promo-description {
+    font-size: 20px;
+    line-height: 28px;
+
+    width: 35%;
+    margin-bottom: 60px;
+}
+
+.get-started,
+.more {
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.get-started {
+    color: #fff;
+    background-color: #3040C4;
+}
+
+.more {
+    color: #3040C4;
+    background-color: #fff;;
+}
+
+.promo-container {
+    position: relative;
+}
+
+.promo-image img {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+
+    top: 5%;
+    right: 0;
+}
+
+.advantages-container {
+    padding: 100px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-phrase {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    width: 30%;
+    margin: 0 auto 30px auto;
+}
+
+.header-proposal {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto 50px auto;
+}
+
+.fields-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.field {
+    width: 30%;
+    padding-top: 50px;
+
+    background-repeat: no-repeat;
+}
+
+.field h3,
+.field p {
+    margin-bottom: 10px;
+}
+
+.field a {
+    color: #3040C4;
+    font-weight: bold;
+}
+
+.field:nth-child(1) {
+    background-image: url(/images/ico-search.png);
+    margin-bottom: 50px;
+}
+
+.field:nth-child(2) {
+    background-image: url(/images/ico-translation.png);
+}
+
+.field:nth-child(3) {
+    background-image: url(/images/ico-subscriptions.png);
+}
+
+.field:nth-child(4) {
+    background-image: url(/images/ico-calls.png);
+}
+
+.field:nth-child(5) {
+    background-image: url(/images/ico-cloud.png);
+}
+
+.field:nth-child(6) {
+    background-image: url(/images/ico-wireless.png);
+}
+
+.easy-finding {
+    background-color: #E5E5E5;
+    position: relative;
+    padding: 50px 0;
+}
+
+.block-wrapper {
+    width: 30%;
+}
+
+.easy-finding .container {
+    width: 90%;
+    margin: 0 auto;
+
+    padding: 80px 0 120px 0;
+}
+
+.features {
+    font-weight: bold;
+    font-size: 22px;
+    color: #009b4d;
+    margin-bottom: 20px;
+}
+
+.easily {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.block-wrapper > p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.block-wrapper a {
+    text-decoration: none;
+    color: #111111;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.new-customer:hover a,
+.engage-users:hover a,
+.develop:hover a {
+    color: #3040C4;
+}
+
+.new-customer,
+.engage-users,
+.develop {
+    border-bottom: 1px solid #ccc;
+}
+
+.block-wrapper a {
+    padding-left: 40px;
+
+    background-position: left center;
+    background-repeat: no-repeat;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.new-customer a {
+    background-image: url(/images/ico-path.png);
+}
+
+.engage-users a {
+    background-image: url(/images/ico-engage.png)
+}
+
+.develop a {
+    background-image: url(/images/ico-develop.png);
+}
+
+.image-invision {
+    display: inline-block;
+    height: 700px;
+
+    position: absolute;
+    top: 5%;
+    right: 0;
 }
