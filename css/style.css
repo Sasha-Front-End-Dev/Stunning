@@ -360,3 +360,52 @@ body {
     color: #fff;
     font-weight: bold;
 }
+
+.start-trial {
+    background-color: #F4F5F7;
+}
+
+.start-trial .container {
+    padding: 50px 0;
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.trial-block {
+    width: 40%;
+}
+
+.trial-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.trial-description {
+    font-size: 22px;
+    color: ##2B292D;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px 15px;
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+form .button {
+    padding: 12px 10px;
+    background-color: #3040C4;
+    border: 0;
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
