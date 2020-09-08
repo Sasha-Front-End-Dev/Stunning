@@ -389,7 +389,7 @@ body {
 
 .trial-description {
     font-size: 22px;
-    color: ##2B292D;
+    color: #2B292D;
     margin-bottom: 20px;
 }
 
@@ -408,4 +408,80 @@ form .button {
     font-size: 16px;
     color: #fff;
     font-weight: bold;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer ul ul {
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.footer ul ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul ul a {
+    color: #666;
+}
+
+.footer_container {
+    padding: 50px 0;
+
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footer_container > ul {
+    justify-content: space-between;
+}
+
+.footer_container > ul > li > a {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer_copyrights {
+    max-width: 1400px;
+    margin: 0 auto;
+    border-top: 1px solid #ededed;
+    padding: 15px 0;
+}
+
+.footer_copyrights ul {
+    justify-content: center;
+}
+
+.footer_copyrights a {
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer_copyrights li:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.footer_copyrights .ico_tw a {
+    background-image: url(/images/ico_tw.png);
+}
+
+.footer_copyrights .ico_fb a {
+    background-image: url(/images/ico_fb.png);
+}
+
+.footer_copyrights .ico_in a {
+    background-image: url(/images/ico_in.png);
 }
