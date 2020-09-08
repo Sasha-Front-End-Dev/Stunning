@@ -299,3 +299,64 @@ body {
     top: 5%;
     right: 0;
 }
+
+.feedback {
+    padding: 100px 0;
+}
+
+.feedback_container {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.feedback h2 {
+    font-size: 56px;
+    color: #2B292D;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.feedback form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback label {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2C3241;
+    margin-bottom: 10px;
+}
+
+.feedback input,
+.feedback textarea {
+    width: calc(100% - 20px);
+
+    border: 1px solid #ededed;
+    background-color: #fff;
+    padding: 12px 10px;
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.feedback textarea {
+    min-height: 160px;
+}
+
+.feedback button {
+    width: 100%;
+
+    padding: 12px 10px;
+    background-color: #3040C4;
+    border: 0;
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
