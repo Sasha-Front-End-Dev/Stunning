@@ -42,8 +42,12 @@ body {
     margin-right: 15px;
 }
 
-.foundation span {
+.logo-description .foundation span {
     font-weight: bold;
+}
+
+.logo-description .startup {
+    color: rgba(43, 41, 45, 0.6);
 }
 
 .nav,
@@ -219,14 +223,30 @@ body {
 }
 
 .block-wrapper {
-    width: 30%;
+    width: 50%;
+}
+
+.easy-finding {
+    background-image: url(/images/easy-find-img.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 10%;
 }
 
 .easy-finding .container {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
 
     padding: 80px 0 120px 0;
+}
+
+.easy-finding .features,
+.easy-finding .easily,
+.easy-finding p,
+.new-customer,
+.engage-users,
+.develop {
+    width: 80%;
 }
 
 .features {
@@ -238,13 +258,13 @@ body {
 
 .easily {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 44px;
     line-height: 50px;
     margin-bottom: 30px;
 }
 
 .block-wrapper > p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     margin-bottom: 40px;
 }
@@ -291,20 +311,24 @@ body {
 
 .image-invision {
     display: inline-block;
-    width: 50%;
+    width: 48%;
 
     height: 700px;
 
     position: absolute;
-    top: 5%;
+    top: 12%;
     right: 0;
+}
+
+.image-invision img {
+    height: 500px;
 }
 
 .feedback {
     padding: 100px 0;
 }
 
-.feedback_container {
+.feedback-container {
     width: 40%;
     margin: 0 auto;
 }
@@ -367,10 +391,10 @@ body {
 
 .start-trial .container {
     padding: 50px 0;
+    margin: 0 auto;
     width: 80%;
     max-width: 1280px;
-    margin: 0 auto;
-
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -393,21 +417,33 @@ body {
     margin-bottom: 20px;
 }
 
+.start-trial form {
+    display: flex;
+    justify-content: space-between;
+}
+
 form input {
-    padding: 10px 15px;
-    width: 300px;
+    padding: 0 15px;
+    width: 100%;
     border: 1px solid #ccc;
 }
 
+form input::placeholder {
+    color: #111111;
+}
+
 form .button {
-    padding: 12px 10px;
+    padding: 10px 10px;
     background-color: #3040C4;
     border: 0;
+    margin-left: 20px;
     
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
-    color: #fff;
     font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 .footer a {
@@ -433,7 +469,7 @@ form .button {
     color: #666;
 }
 
-.footer_container {
+.footer-container {
     padding: 50px 0;
 
     max-width: 1280px;
@@ -441,27 +477,27 @@ form .button {
     width: 80%;
 }
 
-.footer_container > ul {
+.footer-container > ul {
     justify-content: space-between;
 }
 
-.footer_container > ul > li > a {
+.footer-container > ul > li > a {
     font-size: 22px;
     font-weight: bold;
 }
 
-.footer_copyrights {
+.footer-copyrights {
     max-width: 1400px;
     margin: 0 auto;
     border-top: 1px solid #ededed;
     padding: 15px 0;
-}
+-
 
-.footer_copyrights ul {
+.footer-copyrights ul {
     justify-content: center;
 }
 
-.footer_copyrights a {
+.footer-copyrights a {
     display: block;
     width: 24px;
     height: 24px;
@@ -470,18 +506,18 @@ form .button {
     background-repeat: no-repeat;
 }
 
-.footer_copyrights li:not(:last-of-type) {
+.footer-copyrights li:not(:last-of-type) {
     margin-right: 20px;
 }
 
-.footer_copyrights .ico_tw a {
-    background-image: url(/images/ico_tw.png);
+.footer-copyrights .ico-tw a {
+    background-image: url(/images/ico-tw.png);
 }
 
-.footer_copyrights .ico_fb a {
-    background-image: url(/images/ico_fb.png);
+.footer-copyrights .ico-fb a {
+    background-image: url(/images/ico-fb.png);
 }
 
-.footer_copyrights .ico_in a {
-    background-image: url(/images/ico_in.png);
+.footer-copyrights .ico-in a {
+    background-image: url(/images/ico-in.png);
 }
