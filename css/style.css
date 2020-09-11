@@ -191,28 +191,28 @@ body {
 }
 
 .field:nth-child(1) {
-    background-image: url(images/ico-search.png);
+    background-image: url(/images/ico-search.png);
     margin-bottom: 50px;
 }
 
 .field:nth-child(2) {
-    background-image: url(images/ico-translation.png);
+    background-image: url(/images/ico-translation.png);
 }
 
 .field:nth-child(3) {
-    background-image: url(images/ico-subscriptions.png);
+    background-image: url(/images/ico-subscriptions.png);
 }
 
 .field:nth-child(4) {
-    background-image: url(images/ico-calls.png);
+    background-image: url(/images/ico-calls.png);
 }
 
 .field:nth-child(5) {
-    background-image: url(images/ico-cloud.png);
+    background-image: url(/images/ico-cloud.png);
 }
 
 .field:nth-child(6) {
-    background-image: url(images/ico-wireless.png);
+    background-image: url(/images/ico-wireless.png);
 }
 
 .easy-finding {
