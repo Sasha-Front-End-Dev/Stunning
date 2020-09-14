@@ -191,28 +191,28 @@ body {
 }
 
 .field:nth-child(1) {
-    background-image: url(images/ico-search.png);
+    background-image: url(../images/ico-search.png);
     margin-bottom: 50px;
 }
 
 .field:nth-child(2) {
-    background-image: url(images/ico-translation.png);
+    background-image: url(../images/ico-translation.png);
 }
 
 .field:nth-child(3) {
-    background-image: url(images/ico-subscriptions.png);
+    background-image: url(../images/ico-subscriptions.png);
 }
 
 .field:nth-child(4) {
-    background-image: url(images/ico-calls.png);
+    background-image: url(../images/ico-calls.png);
 }
 
 .field:nth-child(5) {
-    background-image: url(images/ico-cloud.png);
+    background-image: url(../images/ico-cloud.png);
 }
 
 .field:nth-child(6) {
-    background-image: url(images/ico-wireless.png);
+    background-image: url(../images/ico-wireless.png);
 }
 
 .easy-finding {
@@ -227,7 +227,7 @@ body {
 }
 
 .easy-finding {
-    background-image: url(images/easy-find-img.png);
+    background-image: url(../images/easy-find-img.png);
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 10%;
@@ -298,15 +298,15 @@ body {
 }
 
 .new-customer a {
-    background-image: url(images/ico-path.png);
+    background-image: url(../images/ico-path.png);
 }
 
 .engage-users a {
-    background-image: url(images/ico-engage.png)
+    background-image: url(../images/ico-engage.png)
 }
 
 .develop a {
-    background-image: url(images/ico-develop.png);
+    background-image: url(../images/ico-develop.png);
 }
 
 .image-invision {
@@ -512,13 +512,13 @@ form .button {
 }
 
 .footer-copyrights .ico-tw a {
-    background-image: url(images/ico-tw.png);
+    background-image: url(../images/ico-tw.png);
 }
 
 .footer-copyrights .ico-fb a {
-    background-image: url(images/ico-fb.png);
+    background-image: url(../images/ico-fb.png);
 }
 
 .footer-copyrights .ico-in a {
-    background-image: url(images/ico-in.png);
+    background-image: url(../images/ico-in.png);
 }
